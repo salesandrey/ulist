@@ -54,7 +54,7 @@ Utilizar o comando: flutter run test
 
 
 
-#Gerenciamento de Estado
+# Gerenciamento de Estado
 
 Utilizado Mobx. Onde as variavéis observadas são encontradas nas stores.
 
