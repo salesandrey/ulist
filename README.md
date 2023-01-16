@@ -37,25 +37,30 @@ Utilizado o CircularProgressIndicator durante o momento de busca de dados.
 
 Para organizar o projeto, foi utilizado Flutter Modular. Pensando no principio da única responsabilidade, temos um modulo que agrupa funções responsáveis para as funcionalidades da lista. E as páginas são separadas por função. A injeção de dependecias realizada foi incluida no modulo para cada controlador da classe, sendo global apenas o FireStore.
 
-#Instruções de Execução Projeto
+# Instruções de Execução Projeto
 
 Utilizar o comando: flutter run main.dart ou flutter run
 
-#Instruções de Execução Teste de Integração
+# Instruções de Execução Teste de Integração
 
 Utilizar o comando com o emulador ligado: flutter test integration_test/add_list_test.dart
 
 Realizei apenas um teste de integração para verificar se a funcionalidade de adicionar novas listas está funcionando. O teste será rodado e validará se uma lista com o nome de "Meus Desejos" será inclusa.
 
-#Instruções de Teste Unitário
+
+# Instruções de Teste Unitário
 
 Utilizar o comando: flutter run test
+
+
 
 #Gerenciamento de Estado
 
 Utilizado Mobx. Onde as variavéis observadas são encontradas nas stores.
 
-#Rotas
+
+
+# Rotas
 
 Utilizado Modular. A lista de rotas pode ser encontrada nos arquivos module.
 
